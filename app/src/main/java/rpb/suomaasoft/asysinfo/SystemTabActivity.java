@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+
 //Our class extending fragment
 public class SystemTabActivity extends Fragment {
 
@@ -21,7 +22,7 @@ public class SystemTabActivity extends Fragment {
         final TextView textViewInfo = (TextView) rootView.findViewById(R.id.system_info_display);
 
 
-        textViewInfo.append(
+        textViewInfo.setText(
                 "SERIAL: " + Build.SERIAL + "\n" +
                         "MODEL: " + Build.MODEL + "\n" +
                         "ID: " + Build.ID + "\n" +
