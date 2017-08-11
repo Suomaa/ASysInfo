@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.text.Html;
 
 //Our class extending fragment
 public class SystemTabActivity extends Fragment {
@@ -22,9 +21,7 @@ public class SystemTabActivity extends Fragment {
         final TextView textViewInfo = (TextView) rootView.findViewById(R.id.system_info_display);
 
 
-        textViewInfo.setText(
-                Html.fromHtml("<h2>Operation System</h2>" +
-                        "</hr>" +
+        textViewInfo.append(
                 "SERIAL: " + Build.SERIAL + "\n" +
                         "MODEL: " + Build.MODEL + "\n" +
                         "ID: " + Build.ID + "\n" +
@@ -39,8 +36,7 @@ public class SystemTabActivity extends Fragment {
                         "BRAND: " + Build.BRAND + "\n" +
                         "HOST: " + Build.HOST + "\n" +
                         "FINGERPRINT: "+Build.FINGERPRINT + "\n" +
-                        "Version Code: " + Build.VERSION.RELEASE)
-        );
+                        "Version Code: " + Build.VERSION.RELEASE);
 
 
         //Returning the layout file after inflating

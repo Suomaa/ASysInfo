@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ASysInfo</string>
+    <string name="header_os_info">Operation System</string>
 </resources>
