@@ -24,7 +24,6 @@
                 android:id="@+id/header_battery_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:text="@string/header_battery_info"
@@ -38,5 +37,4 @@
                 android:layout_marginTop="10dp"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>
-
 </RelativeLayout>

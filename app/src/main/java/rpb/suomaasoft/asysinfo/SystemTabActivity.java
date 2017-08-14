@@ -21,7 +21,7 @@ public class SystemTabActivity extends Fragment {
         final TextView textViewSystemInfo = (TextView) rootView.findViewById(R.id.system_info_display);
 
 
-        textViewSystemInfo.append(
+        textViewSystemInfo.setText(
                 "SERIAL: " + Build.SERIAL + "\n" +
                         "MODEL: " + Build.MODEL + "\n" +
                         "ID: " + Build.ID + "\n" +
