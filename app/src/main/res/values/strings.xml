@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ASysInfo</string>
     <string name="header_os_info">Operation System</string>
+    <string name="header_battery_info">Battery</string>
 </resources>

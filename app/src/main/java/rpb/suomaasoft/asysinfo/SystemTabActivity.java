@@ -18,10 +18,10 @@ public class SystemTabActivity extends Fragment {
 
         View rootView = inflater.inflate(R.layout.activity_system_tab, container, false);
 
-        final TextView textViewInfo = (TextView) rootView.findViewById(R.id.system_info_display);
+        final TextView textViewSystemInfo = (TextView) rootView.findViewById(R.id.system_info_display);
 
 
-        textViewInfo.append(
+        textViewSystemInfo.append(
                 "SERIAL: " + Build.SERIAL + "\n" +
                         "MODEL: " + Build.MODEL + "\n" +
                         "ID: " + Build.ID + "\n" +
