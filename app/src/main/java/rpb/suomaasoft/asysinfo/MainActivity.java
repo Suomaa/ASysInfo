@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
         viewPager.setAdapter(adapter);
 
         //Adding onTabSelectedListener to swipe views
-        tabLayout.setOnTabSelectedListener(this);
+        tabLayout.addOnTabSelectedListener(this);
     }
 
     @Override

@@ -37,4 +37,37 @@
                 android:layout_marginTop="10dp"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_battery2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/card_view_battery"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header_battery_info2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/header_battery_info"
+                android:textIsSelectable="true"/>
+
+            <TextView
+                android:id="@+id/battery_info_display2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 </RelativeLayout>
